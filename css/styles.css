@@ -1,0 +1,135 @@
+.intro {
+  height: 100vh;
+  background: #c7f5fe;
+}
+.slide-1 {
+  margin-bottom: 4rem !important;
+}
+#contact {
+  background-color: #66bfbf;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+h1 {
+  /* position: absolute; */
+  /* top: 4rem; */
+  font-family: "Sacramento", "cursive";
+  color: #66bfbf;
+  text-align: center;
+  font-size: 14rem;
+}
+h2 {
+  color: #66bfbf;
+  text-align: center;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+}
+h3 {
+  color: #66bfbf;
+  text-align: center;
+}
+h4 {
+  color: #66bfbf;
+}
+.gif-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-flex {
+  display: flex;
+}
+.techs {
+  flex-grow: 1;
+  text-align: center;
+}
+.bars {
+  flex-grow: 8;
+  /* text-align: center; */
+}
+.email-button {
+  display: flex;
+  justify-content: center;
+}
+.cloud1 {
+  position: absolute;
+  right: 13rem;
+}
+.cloud2 {
+  position: absolute;
+  left: 17rem;
+}
+.hill {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+.bar-specs {
+  height: 1.7rem !important;
+  margin-bottom: 18px !important;
+}
+.hill img {
+  height: 500px;
+}
+.icons {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.icon-git:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem !important;
+  color: black !important;
+}
+.icons:hover {
+  color: #007bff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-bottom: 1.3rem !important;
+}
+
+.my-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .cloud1 {
+    right: 2rem;
+  }
+  .cloud2 {
+    left: 0.5rem;
+  }
+  .hill {
+    display: none;
+  }
+  .hill img {
+    display: none;
+  }
+  .gif-flex {
+    flex-direction: column;
+  }
+  .development h4 {
+    text-align: center !important;
+    margin-top: 1rem;
+  }
+}
